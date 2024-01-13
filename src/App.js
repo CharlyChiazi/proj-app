@@ -1,4 +1,5 @@
-import Header from "../public/components/Header";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <Header />
      <h1>Hello world!</h1>
      <p>Aprendendo React js</p>
+     <Footer />
    </>
   );
 }

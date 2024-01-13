@@ -2,4 +2,34 @@
 .header{
     background-color: #000;
     border-bottom: 2px solid #f44336;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    padding-inline: 0.5rem;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.header span{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #b71c1c;
+}
+
+.header a{
+    color: #fff;
+    padding-inline: 0.7rem;
+    text-decoration: none;
+
+}
+
+.header a:hover{
+    font-size: 1.5rem;
+    transition: 1s ;
+    color: #b71c1c;
+    border-radius: 5px;
+}
+
